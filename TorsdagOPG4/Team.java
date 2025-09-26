@@ -16,7 +16,7 @@ public Team(String teamName){
 public void setRank(int rank){
     this.rank = rank;
 }
-@Override
+
 public String toString(){
     String result = "Hold: " + teamName + " Rank: " + rank + "\nSpillere:\n";
 
